@@ -28,9 +28,11 @@ export default function Home() {
             width: "100%",
             borderCollapse: "collapse",
             marginTop: "20px",
+            backgroundColor: "#ffffff",
           }}
         >
-          <thead>
+
+          <thead style={{ backgroundColor: "#4CAF50", color: "white" }}>
             <tr>
               <th style={cellStyle}>ID</th>
               <th style={cellStyle}>Dish Name</th>
@@ -61,7 +63,6 @@ export default function Home() {
 }
 
 const cellStyle = {
-  border: "1px solid #cccccc",
+  border: "1px solid #ddd",
   padding: "10px",
-  textAlign: "left" as const,
 };
